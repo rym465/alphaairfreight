@@ -1,0 +1,153 @@
+body{
+	/*background-image: url(http://www.publicdomainpictures.net/download-picture.php?adresar=60000&soubor=road-13813455026q6.jpg);*/
+	background-image: url(../images/trucking2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: 90% 90% ;
+	margin: 0% 5%;
+	/*background-size: cover;*/
+	font-family: 'Noto Sans', sans-serif;
+	background-color: black;
+}
+
+#nav h4{
+	display: inline-block;
+	color: white;
+	padding: 0px 20px 0px 20px;
+	margin: 0px auto;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+#nav{
+	/*background-color: grey;*/
+	text-align: right;
+	line-height: 30px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeba92+0,c6783c+32,ad6833+76,e4ac82+100 */
+	background: rgb(238,186,146); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(238,186,146,1) 0%, rgba(198,120,60,1) 32%, rgba(173,104,51,1) 76%, rgba(228,172,130,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(238,186,146,1) 0%,rgba(198,120,60,1) 32%,rgba(173,104,51,1) 76%,rgba(228,172,130,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(238,186,146,1) 0%,rgba(198,120,60,1) 32%,rgba(173,104,51,1) 76%,rgba(228,172,130,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeba92', endColorstr='#e4ac82',GradientType=0 ); /* IE6-9 */
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	}
+
+#nav h4:hover{
+	color:black;
+}
+
+#header, h1 {
+	font-family: 'Poiret One', sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 1px;
+	padding: 1px;
+	text-align: center;
+	font-weight: 900;
+	font-size: 4em;
+	line-height: 150px;
+	letter-spacing: 2px;
+	color: white;
+	text-shadow: 2px 2px 4px #111111;
+}
+
+#header, h3 {
+	font-family: 'Philosopher', sans-serif;
+	font-weight:normal;
+	text-transform: uppercase;
+	color: black;
+	margin: 0;
+	line-height: 1px;
+	padding: 1px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+
+#header{
+	width: 100%;
+	margin: 10px auto;
+	padding-bottom: 50px;
+}
+
+
+p{
+	color: black;
+	font-size: 18px;
+	text-align: justify;
+}
+
+
+#threeColumns{
+	overflow: hidden;
+	width:100%;
+	padding-top: 100px;
+	padding: 50px;
+
+	background: rgba(10,10,10,0.1);
+}
+
+.col-sm-3{
+	float: right;
+	width: 40%;
+/*	margin-bottom: 50px;*/
+	margin: 10px;
+	padding: 5px;
+	background-color: white;
+	opacity: 0.5;
+	border-color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px black;
+}
+
+.col-sm-9{
+	float: left;
+	width: 40%;
+		margin: 10px;
+	padding: 5px;
+	background-color: white;
+	opacity: 0.9;
+	border-color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px black;
+}
+
+#threeColumns h2:hover, p:hover{
+	/*background-color: blue;*/
+	color: black;
+	opacity: 0.8;
+	background-color: white;
+}
+
+.col-sm-3 , p:hover{
+	color: black;
+	opacity: 0.5;
+	background-color: white;
+}
+
+
+.col-sm-9,  p:hover{
+	color: black;
+	opacity: 0.5;
+	background-color: white;
+}
+
+#threeColumns, #column1, #column2, #column3{
+/*	float: center;
+	width: 33%;
+	/*margin-right: 30px;*/
+/*	padding: 10px;
+	background-color: white;
+	opacity: 0.5;
+	border-color: black;*/
+	/*height: 260px;*/
+/*	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px black;*/
+}
